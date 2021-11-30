@@ -1,0 +1,50 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+    // background-color: aquamarine;
+
+    .logo {
+        display: flex;
+        color: blueviolet;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .menu {
+        // background-color: blueviolet;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+
+        .web-menu {
+            display: flex;
+        }
+
+        .mobile-menu {
+            display: none;
+
+            .menu-icon {
+                font-size: 23px;
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 720px){
+    
+    .mobile-menu {
+        display: flex !important;
+    }
+    .web-menu {
+       display: none !important;
+    }
+    .logo {
+        display: none !important;
+    }
+}
+

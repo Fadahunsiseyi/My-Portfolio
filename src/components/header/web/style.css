@@ -1,0 +1,14 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.web .web-option {
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: 600;
+}
+.web .web-option a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
