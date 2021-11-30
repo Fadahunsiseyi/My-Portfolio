@@ -8,7 +8,7 @@
 }
 .header .logo {
   display: flex;
-  color: blueviolet;
+  color: #4c2ff0;
   font-size: 36px;
   font-weight: 800;
 }
@@ -37,6 +37,6 @@
   }
 
   .logo {
-    display: none !important;
+    font-size: 26px;
   }
 }/*# sourceMappingURL=style.css.map */

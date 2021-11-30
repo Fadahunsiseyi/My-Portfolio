@@ -4,7 +4,7 @@ import './style.scss'
 function Body() {
   return (
     <div>
-      This is the body heu
+      This is the body
     </div>
   );
 }
