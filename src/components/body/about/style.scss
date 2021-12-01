@@ -1,0 +1,45 @@
+.about {
+    padding-bottom: 48px;
+
+    .about-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .about-info{
+            font-size: 24px;
+            .info-name {
+                color: blue;
+                font-size: 32px;
+            }
+        }
+
+        .picture {
+            height: 480px;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .about {
+        margin-top: 10px;
+        padding-top: 20px;
+        background-color: aquamarine;
+    .about-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .about-info {
+            font-size: 20px;
+            .info-name {
+                font-size: 26px;
+            }
+        }
+    }
+    .picture {
+        width: 350px !important;
+        height: 350px !important;
+        object-fit: contain;
+    }
+}
+}

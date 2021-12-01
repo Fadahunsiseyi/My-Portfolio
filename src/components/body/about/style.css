@@ -1,0 +1,43 @@
+.about {
+  padding-bottom: 48px;
+}
+.about .about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about-top .about-info {
+  font-size: 24px;
+}
+.about .about-top .about-info .info-name {
+  color: blue;
+  font-size: 32px;
+}
+.about .about-top .picture {
+  height: 480px;
+}
+
+@media only screen and (max-width: 720px) {
+  .about {
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: aquamarine;
+  }
+  .about .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-top .about-info {
+    font-size: 20px;
+  }
+  .about .about-top .about-info .info-name {
+    font-size: 26px;
+  }
+  .about .picture {
+    width: 350px !important;
+    height: 350px !important;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -13,6 +13,7 @@ function Home() {
       <div>
            <Body/>
       </div>
+      <br />
 
       <div>
            <Footer/>
