@@ -5,6 +5,7 @@
   padding: 12px;
   position: relative;
   align-items: center;
+  transition: 2s ease-in-out !important;
 }
 .header .logo {
   display: flex;

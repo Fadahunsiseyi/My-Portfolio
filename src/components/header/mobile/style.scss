@@ -8,11 +8,13 @@
     padding: 18px 12px;
     display: flex;
     flex-direction: column;
-
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
+    
     .close-icon {
         display: flex;
         justify-content: flex-end;
         font-size: 24px;
+        transition: 2s ease-in-out !important;
     }
     .mobile-options {
         display: flex;
