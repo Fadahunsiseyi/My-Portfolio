@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Mobile from './mobile';
 import './style.scss'
+import { BsList } from "react-icons/bs";
 import Web from './web';
 
 function Header() {
@@ -16,7 +17,7 @@ function Header() {
          </div>
          <div className="mobile-menu">
              <div onClick={() => setIsOpen(!isOpen)}>
-             <i class=" fi-rr-apps menu-icon"></i>
+             <BsList className="menu-icon"/>
              </div>
              {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} /> }
          </div>
