@@ -1,26 +1,27 @@
 import React from 'react';
+import { FaEdit, FaLaptop, FaBriefcase, FaPortrait } from "react-icons/fa";
 import './style.scss'
 function Web() {
   return (
     <div className="web">
       <div className="web-option">
           <a href="#project">
-          <i class="fi fi-rr-edit option-icon"></i>Projects
+          <FaEdit className="option-icon"/>  Projects
           </a>
       </div>
       <div className="web-option">
           <a href="#skills">
-          <i class="fi fi-rr-laptop option-icon"></i>Skills
+          <FaLaptop className="option-icon"/> Skills
           </a>
       </div>
       <div className="web-option">
           <a href="#work">
-          <i class="fi fi-rr-briefcase option-icon"></i>Work
+          <FaBriefcase className="option-icon"/>  Work
           </a>
       </div>
       <div className="web-option">
           <a href="#contact">
-          <i class="fi fi-rr-portrait option-icon"></i>Contact
+          <FaPortrait className="option-icon"/>  Contact
           </a>
       </div>
     </div>

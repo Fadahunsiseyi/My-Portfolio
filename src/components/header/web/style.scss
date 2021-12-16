@@ -16,11 +16,17 @@
             color: #585555;
             display: flex;
             align-items: center;
+            &:hover {
+                color: blue;
+                transition: 0.4s ease-in-out;
+            }
 
             .option-icon {
                 display: flex;
                 align-items: center;
                 margin-right: 4px;
+                // color: red;
+                // background-color: green;
             }
         }
     }
