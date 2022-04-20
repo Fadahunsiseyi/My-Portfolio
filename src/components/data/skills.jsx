@@ -22,7 +22,7 @@ export const SkillsData = [
         ]
     },
     {
-        type: "Backend",
+        type: "Backend Language",
         list: [
             {
             name: "NodeJS",
